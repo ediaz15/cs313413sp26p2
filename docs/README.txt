@@ -23,3 +23,21 @@ Maybe it was just the few times that I tried it that it seem to happen for this.
 TestPerformance.java
 
 1) "TODO Question: What conclusions can you draw about the performance of LinkedList vs. ArrayList when comparing their running times for AddRemove vs. Access? Record those running times in README.txt!"
+INCREASED REPS (REPS = 10000000, SIZE = 10)
+ArrayList takes longer than LinkedLists for adding and removing elements.
+Around the same for general element access.
+
+INCREASED SIZE((REPS = 10, SIZE = 10000000)
+*had to decrease size by % 10 for linkedlist to work*
+on average same time for adding and removing BUT LinkedList triggered a heap space error for LinkedLists when doing the original size
+Arraylist had worked still.
+General same access time for both arraylist and linkedlist.
+
+BOTH SIZE AND REPS = 1000000
+
+LinkedList is way faster than arraylist for adding and removing elements
+(1s avg linkedlist VS 10+ sec avg arraylist)
+
+ArrayList is faster than linkedlist for accessing elements
+
+Nice the tradeoffs are apparant when working with data structures!
