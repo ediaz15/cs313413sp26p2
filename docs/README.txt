@@ -28,7 +28,7 @@ ArrayList takes longer than LinkedLists for adding and removing elements.
 Around the same for general element access.
 
 INCREASED SIZE((REPS = 10, SIZE = 10000000)
-*had to decrease size by % 10 for linkedlist to work*
+*had to decrease size by / 10 for linkedlist to work*
 on average same time for adding and removing BUT LinkedList triggered a heap space error for LinkedLists when doing the original size
 Arraylist had worked still.
 General same access time for both arraylist and linkedlist.
