@@ -11,9 +11,14 @@ We get a concurrentModificationException when we try the Integer.valueOf(77). Im
 TestList.java
 
 1) Try with a LinkedList - does it make any difference?
-2) What does this method do? [found in the testRemoveObject()]
-    a) What does this one do?
+A LinkedList implementation of the tests seem to have a slower runtime on average than the arraylist. Though it could be through the methods we are using to test it.
+Maybe it was just the few times that I tried it that it seem to happen for this. Being said, as the previoous question from the other file, I think the tradeoffs still appear under the hood.
 
+2) What does this method do? [found in the testRemoveObject()]
+    The list.remove() here is using the integer we passed to it to go to that index of said list and remove the element there
+
+    a) What does this one do?
+    in this one while we are using another integer that we passed to it, it looks for the first value of 5 then removes it?
 
 TestPerformance.java
 
